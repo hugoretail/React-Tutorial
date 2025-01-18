@@ -13,7 +13,7 @@ function ListGroup() {
           <li
             className={ selectedIndex === index ? 'list-group-item active' : 'list-group-item' }
             key={item}
-            onClick={() => { setSelectedIndex(index);}}
+            onClick={() => { selectedIndex === index ? setSelectedIndex(-1) : setSelectedIndex(index)}}
           >
             {item}
           </li>
