@@ -4,6 +4,8 @@ This project follows the tutorial made by @programmingwithmosh:
 
 ### TODO
 
+- React Library
+- Bootstrap
 - Vite + React
 
 ### Conventions
